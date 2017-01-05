@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'Work Sans';
-  font-weight: 400;
+  font-weight: 300;
   background-image: url('../img/background.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -29,6 +29,10 @@ body {
   .top-nav-collapse {
     padding: 0;
   }
+}
+
+a:not(.page-scroll) {
+  font-weight: 500;
 }
 
 p {

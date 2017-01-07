@@ -79,11 +79,8 @@
             }
           }
         },
-        phone: {
+        phone_number: {
           validators: {
-            notEmpty: {
-              message: 'Please supply your phone number'
-            },
             phone: {
               country: 'US',
               message: 'Please supply a vaild phone number, including an area code'
